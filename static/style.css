@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    font-size: 16px;
+}
+
+#popup{
+    font-size: 15px;
+}
+.form-control {
+    font-size: 14px;
+    padding: 3px 9px;
+}
+
+.card-body {
+    margin-top: -20px;
+}
+
+.ct {
+    width: 500px;
+    animation: fadeInUp 01s ease-out;
+    box-shadow: 5px 15px 15px  #DDDDDD;
+}
+
+.result {
+    display: none;
+}
+
+.ketqua {
+    animation: fadeInUp 3s ease-out;
+    font-size: 14px;
+}
+
+.btshow {
+    display: block;
+    animation: loop 1s infinite;
+}
+
+.xemketqua_p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes loop {
+    from {
+        transform: scale(0.95, 0.95);
+    }
+
+    to {
+        transform: scale(1, 1);
+    }
+}
+
+.footerCard{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+;
